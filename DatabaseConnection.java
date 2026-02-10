@@ -16,3 +16,11 @@ public class DatabaseConnection {
         }
     }
 }
+public class Main {
+    public static void main(String[] args) {
+        System.out.println("The Brain is waking up...");
+        // This part will eventually take the name from your website
+        String name = "Student Name"; 
+        System.out.println("I caught the name: " + name);
+    }
+}
